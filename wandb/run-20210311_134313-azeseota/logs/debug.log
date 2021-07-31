@@ -1,0 +1,36 @@
+2021-03-11 13:43:13,437 INFO    MainThread:2612 [wandb_setup.py:_flush():69] setting env: {}
+2021-03-11 13:43:13,437 INFO    MainThread:2612 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-11 13:43:13,437 INFO    MainThread:2612 [wandb_init.py:_log_setup():334] Logging user logs to C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210311_134313-azeseota\logs\debug.log
+2021-03-11 13:43:13,441 INFO    MainThread:2612 [wandb_init.py:_log_setup():335] Logging internal logs to C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210311_134313-azeseota\logs\debug-internal.log
+2021-03-11 13:43:13,441 INFO    MainThread:2612 [wandb_init.py:_jupyter_setup():285] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000028539F30128>
+2021-03-11 13:43:13,441 INFO    MainThread:2612 [wandb_init.py:init():367] calling init triggers
+2021-03-11 13:43:13,441 INFO    MainThread:2612 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'n_layers': 4, 'hidden_layer_size': 128, 'learn_rate': 0.001, 'batch_size': 16, 'epochs': 10, 'alpha': 0, 'optimizer': 'nadam', 'activation': 'relu', 'weight_init': 'random'}
+2021-03-11 13:43:13,441 INFO    MainThread:2612 [wandb_init.py:init():416] starting backend
+2021-03-11 13:43:13,441 INFO    MainThread:2612 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=spawn, using: spawn
+2021-03-11 13:43:13,453 INFO    MainThread:2612 [backend.py:ensure_launched():123] starting backend process...
+2021-03-11 13:43:13,553 INFO    MainThread:2612 [backend.py:ensure_launched():128] started backend process with pid: 14520
+2021-03-11 13:43:13,553 INFO    MainThread:2612 [wandb_init.py:init():421] backend started and connected
+2021-03-11 13:43:13,565 INFO    MainThread:2612 [wandb_init.py:init():461] updated telemetry
+2021-03-11 13:43:13,565 INFO    MainThread:2612 [wandb_init.py:init():480] communicating current version
+2021-03-11 13:43:15,303 INFO    MainThread:2612 [wandb_init.py:init():485] got version response upgrade_message: "wandb version 0.10.22 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-03-11 13:43:15,303 INFO    MainThread:2612 [wandb_init.py:init():493] communicating run to backend with 30 second timeout
+2021-03-11 13:43:15,774 INFO    MainThread:2612 [wandb_init.py:init():518] starting run threads in backend
+2021-03-11 13:43:19,053 INFO    MainThread:2612 [wandb_run.py:_console_start():1476] atexit reg
+2021-03-11 13:43:19,053 INFO    MainThread:2612 [wandb_run.py:_redirect():1339] redirect: SettingsConsole.WRAP
+2021-03-11 13:43:19,053 INFO    MainThread:2612 [wandb_run.py:_redirect():1374] Wrapping output streams.
+2021-03-11 13:43:19,053 INFO    MainThread:2612 [wandb_run.py:_redirect():1390] Redirects installed.
+2021-03-11 13:43:19,057 INFO    MainThread:2612 [wandb_init.py:init():542] run started, returning control to user process
+2021-03-11 13:43:19,057 INFO    MainThread:2612 [wandb_init.py:_pause_backend():247] pausing backend
+2021-03-11 13:43:19,057 INFO    MainThread:2612 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-03-11 13:43:47,745 INFO    MainThread:2612 [wandb_init.py:_resume_backend():256] resuming backend
+2021-03-11 13:43:47,757 INFO    MainThread:2612 [wandb_setup.py:_flush():69] setting env: {}
+2021-03-11 13:43:47,757 INFO    MainThread:2612 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-11 13:43:47,757 INFO    MainThread:2612 [wandb_init.py:_log_setup():334] Logging user logs to C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210311_134347-2v8gdmof\logs\debug.log
+2021-03-11 13:43:47,757 INFO    MainThread:2612 [wandb_init.py:_log_setup():335] Logging internal logs to C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210311_134347-2v8gdmof\logs\debug-internal.log
+2021-03-11 13:43:47,757 INFO    MainThread:2612 [wandb_init.py:init():367] calling init triggers
+2021-03-11 13:43:47,757 INFO    MainThread:2612 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'n_layers': 4, 'hidden_layer_size': 128, 'learn_rate': 0.001, 'batch_size': 16, 'epochs': 10, 'alpha': 0, 'optimizer': 'nadam', 'activation': 'relu', 'weight_init': 'random'}
+2021-03-11 13:43:47,757 INFO    MainThread:2612 [wandb_init.py:init():389] re-initializing run, found existing run on stack: azeseota
+2021-03-11 13:43:47,761 INFO    MainThread:2612 [wandb_run.py:finish():1135] finishing run neilghosh/cs6910_assignment_1/azeseota

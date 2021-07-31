@@ -1,0 +1,9 @@
+1/5 completed
+2/5 completed
+3/5 completed
+4/5 completed
+train.py:157: RuntimeWarning: divide by zero encountered in log
+  cross_entropy = -np.multiply(y, np.log(y_hat)).sum() / len(y_hat)
+train.py:157: RuntimeWarning: invalid value encountered in multiply
+  cross_entropy = -np.multiply(y, np.log(y_hat)).sum() / len(y_hat)
+5/5 completed

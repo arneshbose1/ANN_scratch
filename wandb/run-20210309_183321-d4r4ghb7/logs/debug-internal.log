@@ -1,0 +1,487 @@
+2021-03-09 18:33:22,603 INFO    MainThread:1896 [internal.py:wandb_internal():91] W&B internal server running at pid: 1896, started at: 2021-03-09 18:33:22.598098
+2021-03-09 18:33:22,605 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: check_version
+2021-03-09 18:33:22,605 INFO    WriterThread:1896 [datastore.py:open_for_write():77] open: C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210309_183321-d4r4ghb7\run-d4r4ghb7.wandb
+2021-03-09 18:33:22,607 DEBUG   SenderThread:1896 [sender.py:send():122] send: header
+2021-03-09 18:33:22,607 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:33:22,609 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: check_version
+2021-03-09 18:33:22,875 DEBUG   SenderThread:1896 [sender.py:send():122] send: run
+2021-03-09 18:33:23,396 INFO    SenderThread:1896 [sender.py:_start_run_threads():599] run started: d4r4ghb7 with start time 1615295001
+2021-03-09 18:33:23,396 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:33:23,397 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: run_start
+2021-03-09 18:33:23,399 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:33:26,016 DEBUG   HandlerThread:1896 [meta.py:__init__():34] meta init
+2021-03-09 18:33:26,016 DEBUG   HandlerThread:1896 [meta.py:__init__():48] meta init done
+2021-03-09 18:33:26,016 DEBUG   HandlerThread:1896 [meta.py:probe():190] probe
+2021-03-09 18:33:26,166 DEBUG   HandlerThread:1896 [meta.py:_save_pip():52] save pip
+2021-03-09 18:33:26,168 DEBUG   HandlerThread:1896 [meta.py:_save_pip():66] save pip done
+2021-03-09 18:33:26,168 DEBUG   HandlerThread:1896 [meta.py:probe():231] probe done
+2021-03-09 18:33:26,174 DEBUG   SenderThread:1896 [sender.py:send():122] send: files
+2021-03-09 18:33:26,174 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-metadata.json with policy now
+2021-03-09 18:33:26,190 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:33:26,191 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:33:26,191 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:33:26,191 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:26,201 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:26,669 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:31,116 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:31,116 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:31,486 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:31,486 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:31,608 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:31,866 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:31,866 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:32,213 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:32,213 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:32,252 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:32,596 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:32,596 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:32,597 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:32,597 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:32,764 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:33,392 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:33,392 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:33,393 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:33,393 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:33,560 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:33,954 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:33,955 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:33,955 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:33,955 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:34,144 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:37,826 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:37,826 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:38,080 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:38,081 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:38,114 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:40,156 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:40,156 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:40,157 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:40,157 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:40,319 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:41,671 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:33:41,671 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:33:41,671 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:33:51,853 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:51,853 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:51,854 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:51,854 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:52,604 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:52,604 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:52,604 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:52,605 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:52,648 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:52,648 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:52,750 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:52,750 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:52,751 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:52,751 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:52,801 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:53,099 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:53,099 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:53,100 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:53,100 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:53,327 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:53,435 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:53,435 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:53,435 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:53,436 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:53,486 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:53,805 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:53,805 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:53,806 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:53,806 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:53,997 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:54,163 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:54,164 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:54,164 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:54,165 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:54,220 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:54,545 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:54,545 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:54,545 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:54,546 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:54,762 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:54,913 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:54,914 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:54,914 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:54,914 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:54,963 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:55,346 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:55,346 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:55,347 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:55,347 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:55,520 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:55,765 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:55,765 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:55,766 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:55,766 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:55,817 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:57,155 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:33:57,155 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:33:57,155 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:33:57,289 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:57,289 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:57,290 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:57,290 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:57,628 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:58,094 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:58,094 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:58,094 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:58,095 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:33:58,259 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:33:59,008 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:33:59,009 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:33:59,898 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:33:59,898 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:34:00,060 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:34:12,639 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:34:12,639 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:34:12,639 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:34:16,194 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:34:16,194 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:34:24,194 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:34:26,478 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:34:28,937 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:34:28,937 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:34:28,938 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:34:32,082 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:34:37,550 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:34:39,197 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:34:39,198 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:34:39,198 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:34:40,259 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:34:40,259 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:34:40,260 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:34:43,021 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:34:48,546 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:34:53,782 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:34:53,782 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:34:53,783 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:34:54,046 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:34:54,712 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:34:54,712 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:34:54,712 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:34:59,515 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:35:05,004 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:35:06,067 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:35:06,068 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:35:06,069 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:35:10,182 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:35:10,182 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:35:10,183 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:35:10,659 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:35:15,934 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:35:18,270 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:35:18,271 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:35:18,272 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:35:21,395 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:35:25,668 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:35:25,668 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:35:25,668 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:35:26,895 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:35:30,607 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:35:30,607 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:35:30,609 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:35:32,570 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:35:38,062 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:35:41,181 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:35:41,182 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:35:41,182 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:35:43,545 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:35:45,396 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:35:45,396 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:35:45,398 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:35:49,050 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:35:55,207 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:35:56,667 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:35:56,667 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:35:56,668 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:36:00,688 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:36:02,467 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:36:02,468 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:36:02,469 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:36:06,195 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:36:12,025 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:36:12,137 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:36:12,138 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:36:12,139 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:36:16,846 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:36:16,846 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:36:16,849 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:36:17,497 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:36:23,134 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:36:27,746 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:36:27,747 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:36:27,748 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:36:28,915 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:36:32,230 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:36:32,230 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:36:32,231 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:36:34,363 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:36:39,790 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:36:43,399 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:36:43,399 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:36:43,399 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:36:45,238 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:36:50,681 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:36:56,121 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:36:58,869 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:36:58,870 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:36:58,870 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:37:01,543 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:37:06,358 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:37:06,358 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:37:06,523 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:37:14,369 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:37:14,369 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:37:14,369 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:37:29,908 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:37:29,908 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:37:29,908 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:37:45,403 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:37:45,403 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:37:45,403 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:38:02,013 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:38:02,013 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:38:02,013 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:38:17,490 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:38:17,490 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:38:17,491 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:38:32,970 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:38:32,970 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:38:32,971 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:38:48,452 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:38:48,452 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:38:48,453 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:39:01,899 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:39:01,900 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:39:02,574 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: pause
+2021-03-09 18:39:02,574 INFO    HandlerThread:1896 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-09 18:39:02,654 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:39:03,943 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:39:03,943 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:39:03,944 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:39:10,067 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: resume
+2021-03-09 18:39:10,067 INFO    HandlerThread:1896 [handler.py:handle_request_resume():420] starting system metrics thread
+2021-03-09 18:39:14,908 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:39:19,511 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:39:19,511 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:39:19,512 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:39:27,676 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:39:27,677 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:39:27,677 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:39:27,678 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:39:27,678 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:39:31,358 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:39:36,843 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:39:37,211 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:39:37,211 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:39:37,213 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:39:42,622 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:39:42,683 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:39:42,684 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:39:42,684 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:39:48,153 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:39:51,573 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:39:51,573 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:39:51,574 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:39:53,939 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:39:58,230 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:39:58,231 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:39:58,231 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:39:59,520 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:40:05,009 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:40:07,235 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:40:07,236 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:40:07,237 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:40:10,507 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:40:13,776 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:40:13,776 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:40:13,776 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:40:16,051 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:40:20,956 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:40:20,957 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:40:20,958 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:40:21,579 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:40:27,104 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:40:29,261 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:40:29,262 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:40:29,262 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:40:32,626 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:40:34,997 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:40:34,997 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:40:34,998 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:40:38,123 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:40:43,805 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:40:44,760 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:40:44,761 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:40:44,761 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:40:49,536 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:40:50,483 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:40:50,483 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:40:50,485 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:40:54,993 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:41:00,537 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:41:00,666 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:41:00,666 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:41:00,667 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:41:04,982 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:41:04,982 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:41:04,983 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:41:06,073 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:41:11,575 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:41:16,135 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: status
+2021-03-09 18:41:16,135 DEBUG   SenderThread:1896 [sender.py:send():122] send: request
+2021-03-09 18:41:16,135 DEBUG   SenderThread:1896 [sender.py:send_request():131] send_request: status
+2021-03-09 18:41:17,612 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:41:18,472 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:41:18,473 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:41:18,474 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:41:22,551 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:41:28,047 DEBUG   SenderThread:1896 [sender.py:send():122] send: stats
+2021-03-09 18:41:30,927 DEBUG   SenderThread:1896 [sender.py:send():122] send: history
+2021-03-09 18:41:30,928 DEBUG   SenderThread:1896 [sender.py:send():122] send: summary
+2021-03-09 18:41:30,929 INFO    SenderThread:1896 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-09 18:41:30,975 DEBUG   SenderThread:1896 [sender.py:send():122] send: telemetry
+2021-03-09 18:41:30,978 DEBUG   HandlerThread:1896 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-09 18:41:31,453 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 18:41:31,453 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 18:41:33,153 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 18:41:33,153 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 18:41:35,656 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 18:41:35,656 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 18:41:35,658 ERROR   SenderThread:1896 [retry.py:__call__():111] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\old\retry.py", line 96, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 129, in execute
+    six.reraise(*sys.exc_info())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\six.py", line 703, in reraise
+    raise value
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 123, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\models.py", line 935, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2021-03-09 18:41:40,875 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 18:41:40,876 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 18:41:50,360 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 18:41:50,360 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 18:42:08,731 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 18:42:08,731 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 18:42:43,077 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 18:42:43,077 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 18:44:01,217 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 18:44:01,217 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 18:46:22,648 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 18:46:22,649 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 18:51:08,653 WARNING MainThread:1896 [internal.py:is_dead():344] Internal process exiting, parent pid 4296 disappeared
+2021-03-09 18:51:08,654 ERROR   MainThread:1896 [internal.py:wandb_internal():142] Internal process shutdown.
+2021-03-09 18:51:09,565 INFO    WriterThread:1896 [datastore.py:close():258] close: C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210309_183321-d4r4ghb7\run-d4r4ghb7.wandb
+2021-03-09 18:51:09,565 INFO    HandlerThread:1896 [handler.py:finish():535] shutting down handler
+2021-03-09 18:51:39,477 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 18:51:39,477 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 18:57:11,452 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 18:57:11,452 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 19:03:16,812 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 19:03:16,812 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 19:08:34,872 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 19:08:34,873 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 19:13:50,919 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 19:13:50,919 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 19:19:31,794 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 19:19:31,794 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 19:24:52,179 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 19:24:52,180 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 19:30:15,167 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 19:30:15,167 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 19:35:20,140 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 19:35:20,141 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 19:41:28,535 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 19:41:28,535 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 19:47:40,820 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 19:47:40,820 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 19:52:52,488 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 19:52:52,489 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 19:58:58,556 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 19:58:58,556 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 20:05:00,629 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 20:05:00,629 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 20:10:09,028 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 20:10:09,028 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 20:15:28,605 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 20:15:28,605 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 20:20:53,583 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 20:20:53,583 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 20:25:55,653 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 20:25:55,653 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 20:31:48,909 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 20:31:48,909 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 20:38:02,849 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 20:38:02,849 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 20:43:45,983 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 20:43:45,983 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 20:49:15,043 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 20:49:15,044 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 20:54:24,077 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 20:54:24,077 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 20:59:52,794 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 20:59:52,794 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 21:05:40,965 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 21:05:40,966 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 21:11:46,875 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 21:11:46,876 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 21:17:26,242 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 21:17:26,242 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 21:22:31,112 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 21:22:31,113 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 21:28:30,650 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 21:28:30,650 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 21:34:30,427 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 21:34:30,428 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 21:40:42,574 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 21:40:42,574 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 21:46:40,331 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 21:46:40,332 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 21:52:29,373 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 21:52:29,377 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 21:58:18,982 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 21:58:18,982 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 22:03:27,788 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 22:03:27,789 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 22:09:40,816 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 22:09:40,816 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 22:16:02,588 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 22:16:02,588 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 22:21:59,727 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 22:21:59,728 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 22:27:22,541 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 22:27:22,541 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 22:33:17,765 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 22:33:17,765 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 22:38:38,960 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 22:38:38,961 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 22:44:44,778 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 22:44:44,778 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 22:50:12,721 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 22:50:12,721 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 22:56:36,244 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 22:56:36,244 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 23:02:10,393 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 23:02:10,393 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 23:07:27,711 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 23:07:27,711 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 23:13:05,317 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 23:13:05,318 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 23:19:22,702 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 23:19:22,702 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 23:24:40,413 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 23:24:40,413 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-09 23:30:05,246 ERROR   SenderThread:1896 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-09 23:30:05,246 ERROR   SenderThread:1896 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-d4r4ghb7' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}

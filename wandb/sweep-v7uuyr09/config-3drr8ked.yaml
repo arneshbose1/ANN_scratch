@@ -1,0 +1,20 @@
+wandb_version: 1
+
+activation:
+  value: sigmoid
+alpha:
+  value: 0
+batch_size:
+  value: 64
+epochs:
+  value: 10
+hidden_layer_size:
+  value: 32
+learn_rate:
+  value: 0.001
+n_layers:
+  value: 4
+optimizer:
+  value: nadam
+weight_init:
+  value: xavier

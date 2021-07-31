@@ -1,0 +1,27 @@
+1/10 epochs completed
+2/10 epochs completed
+3/10 epochs completed
+4/10 epochs completed
+5/10 epochs completed
+6/10 epochs completed
+7/10 epochs completed
+8/10 epochs completed
+9/10 epochs completed
+10/10 epochs completed
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: dxcj4muz
+Sweep URL: https://wandb.ai/arneshbose1/uncategorized/sweeps/dxcj4muz
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: nkh4ywr8
+Sweep URL: https://wandb.ai/arneshbose1/deep_learning_assign2/sweeps/nkh4ywr8
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+wandb: Agent Starting Run: prbsyj0n with config:
+wandb: 	activation: tanh
+wandb: 	alpha: 0.5
+wandb: 	batch_size: 64
+wandb: 	epochs: 10
+wandb: 	hidden_layer_size: 128
+wandb: 	learn_rate: 0.001
+wandb: 	n_layers: 4
+wandb: 	optimizer: momentum_gradient_descent
+wandb: 	weight_init: random

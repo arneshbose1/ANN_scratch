@@ -1,0 +1,18 @@
+1/10 completed
+2/10 completed
+train.py:160: RuntimeWarning: divide by zero encountered in log
+  cross_entropy = -np.multiply(y, np.log(y_hat)).sum() / len(y_hat)
+train.py:160: RuntimeWarning: invalid value encountered in multiply
+  cross_entropy = -np.multiply(y, np.log(y_hat)).sum() / len(y_hat)
+3/10 completed
+4/10 completed
+train.py:55: RuntimeWarning: invalid value encountered in true_divide
+  return z1/z2
+train.py:73: RuntimeWarning: invalid value encountered in greater
+  relu[relu > 0] = 1
+5/10 completed
+6/10 completed
+7/10 completed
+8/10 completed
+9/10 completed
+10/10 completed

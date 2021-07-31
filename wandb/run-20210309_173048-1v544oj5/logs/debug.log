@@ -1,0 +1,61 @@
+2021-03-09 17:30:48,334 INFO    MainThread:13564 [wandb_setup.py:_flush():69] setting env: {}
+2021-03-09 17:30:48,334 INFO    MainThread:13564 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-09 17:30:48,334 INFO    MainThread:13564 [wandb_init.py:_log_setup():334] Logging user logs to C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210309_173048-1v544oj5\logs\debug.log
+2021-03-09 17:30:48,335 INFO    MainThread:13564 [wandb_init.py:_log_setup():335] Logging internal logs to C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210309_173048-1v544oj5\logs\debug-internal.log
+2021-03-09 17:30:48,335 INFO    MainThread:13564 [wandb_init.py:init():367] calling init triggers
+2021-03-09 17:30:48,336 INFO    MainThread:13564 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'n_layers': 3, 'hidden_layer_size': 64, 'learn_rate': 0.001, 'batch_size': 16, 'epochs': 10, 'alpha': 0.0005, 'optimizer': 'gradient_descent', 'activation': 'sigmoid', 'weight_init': 'random'}
+2021-03-09 17:30:48,336 INFO    MainThread:13564 [wandb_init.py:init():389] re-initializing run, found existing run on stack: 1xbns99z
+2021-03-09 17:30:48,338 INFO    MainThread:13564 [wandb_run.py:finish():1135] finishing run arneshbose1/deep_learning_assign2/1xbns99z
+2021-03-09 17:30:48,338 INFO    MainThread:13564 [jupyter.py:save_history():320] not saving jupyter history
+2021-03-09 17:30:48,338 INFO    MainThread:13564 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-03-09 17:30:48,339 INFO    MainThread:13564 [wandb_init.py:_jupyter_teardown():266] cleaning up jupyter logic
+2021-03-09 17:30:48,339 INFO    MainThread:13564 [wandb_run.py:_atexit_cleanup():1446] got exitcode: 0
+2021-03-09 17:30:48,339 INFO    MainThread:13564 [wandb_run.py:_restore():1418] restore
+2021-03-09 17:30:48,828 INFO    MainThread:13564 [wandb_run.py:_wait_for_finish():1568] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 712
+  total_bytes: 712
+}
+
+2021-03-09 17:30:50,840 INFO    MainThread:13564 [wandb_run.py:_wait_for_finish():1568] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6579
+  total_bytes: 6579
+}
+
+2021-03-09 17:30:52,848 INFO    MainThread:13564 [wandb_run.py:_wait_for_finish():1568] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6579
+  total_bytes: 6579
+}
+
+2021-03-09 17:30:54,061 INFO    MainThread:13564 [wandb_run.py:_show_summary():1723] rendering summary
+2021-03-09 17:30:54,063 INFO    MainThread:13564 [wandb_run.py:_show_history():1761] rendering history
+2021-03-09 17:30:54,065 INFO    MainThread:13564 [wandb_run.py:_show_files():1790] logging synced files
+2021-03-09 17:30:54,071 INFO    MainThread:13564 [wandb_init.py:init():416] starting backend
+2021-03-09 17:30:54,071 INFO    MainThread:13564 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=spawn, using: spawn
+2021-03-09 17:30:54,075 INFO    MainThread:13564 [backend.py:ensure_launched():123] starting backend process...
+2021-03-09 17:30:54,173 INFO    MainThread:13564 [backend.py:ensure_launched():128] started backend process with pid: 12396
+2021-03-09 17:30:54,173 INFO    MainThread:13564 [wandb_init.py:init():421] backend started and connected
+2021-03-09 17:30:54,185 INFO    MainThread:13564 [wandb_init.py:init():461] updated telemetry
+2021-03-09 17:30:54,186 INFO    MainThread:13564 [wandb_init.py:init():480] communicating current version
+2021-03-09 17:30:55,761 INFO    MainThread:13564 [wandb_init.py:init():485] got version response 
+2021-03-09 17:30:55,761 INFO    MainThread:13564 [wandb_init.py:init():493] communicating run to backend with 30 second timeout
+2021-03-09 17:30:56,304 INFO    MainThread:13564 [wandb_init.py:init():518] starting run threads in backend
+2021-03-09 17:30:59,494 INFO    MainThread:13564 [wandb_run.py:_console_start():1476] atexit reg
+2021-03-09 17:30:59,495 INFO    MainThread:13564 [wandb_run.py:_redirect():1339] redirect: SettingsConsole.WRAP
+2021-03-09 17:30:59,495 INFO    MainThread:13564 [wandb_run.py:_redirect():1374] Wrapping output streams.
+2021-03-09 17:30:59,496 INFO    MainThread:13564 [wandb_run.py:_redirect():1390] Redirects installed.
+2021-03-09 17:30:59,496 INFO    MainThread:13564 [wandb_init.py:init():542] run started, returning control to user process
+2021-03-09 17:59:55,704 INFO    MainThread:13564 [pyagent.py:run():316] Starting sweep agent: entity=None, project=None, count=None
+2021-03-09 17:59:56,807 INFO    Thread-12 :13564 [wandb_run.py:finish():1135] finishing run arneshbose1/deep_learning_assign2/1v544oj5

@@ -1,0 +1,12 @@
+2021-03-11 20:59:19,653 INFO    MainThread:6220 [wandb_setup.py:_flush():69] setting env: {}
+2021-03-11 20:59:19,653 INFO    MainThread:6220 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-11 20:59:19,653 INFO    MainThread:6220 [wandb_init.py:_log_setup():334] Logging user logs to C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210311_205919-2kar27hb\logs\debug.log
+2021-03-11 20:59:19,654 INFO    MainThread:6220 [wandb_init.py:_log_setup():335] Logging internal logs to C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210311_205919-2kar27hb\logs\debug-internal.log
+2021-03-11 20:59:19,654 INFO    MainThread:6220 [wandb_init.py:_jupyter_setup():285] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000203FFFC0710>
+2021-03-11 20:59:19,655 INFO    MainThread:6220 [wandb_init.py:init():367] calling init triggers
+2021-03-11 20:59:19,655 INFO    MainThread:6220 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'n_layers': 4, 'hidden_layer_size': 128, 'learn_rate': 0.001, 'batch_size': 16, 'epochs': 10, 'alpha': 0, 'optimizer': 'nadam', 'activation': 'relu', 'weight_init': 'random'}
+2021-03-11 20:59:19,655 INFO    MainThread:6220 [wandb_init.py:init():389] re-initializing run, found existing run on stack: 2nxu8oq4
+2021-03-11 20:59:19,657 INFO    MainThread:6220 [wandb_run.py:finish():1135] finishing run arneshbose1/deep_learning_assign2/2nxu8oq4
+2021-03-11 20:59:19,657 INFO    MainThread:6220 [wandb_run.py:_atexit_cleanup():1446] got exitcode: 0
+2021-03-11 20:59:19,658 INFO    MainThread:6220 [wandb_run.py:_restore():1418] restore

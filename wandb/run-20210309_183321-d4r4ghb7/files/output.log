@@ -1,0 +1,89 @@
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: un2jy3m8
+Sweep URL: https://wandb.ai/arneshbose1/deep_learning_assign2/sweeps/un2jy3m8
+1/10 epochs completed
+2/10 epochs completed
+3/10 epochs completed
+4/10 epochs completed
+5/10 epochs completed
+6/10 epochs completed
+7/10 epochs completed
+8/10 epochs completed
+9/10 epochs completed
+10/10 epochs completed
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+wandb: Agent Starting Run: 97w8mehe with config:
+	activation: tanh
+	alpha: 0
+	batch_size: 32
+	epochs: 5
+	hidden_layer_size: 32
+	learn_rate: 0.0001
+	n_layers: 5
+	optimizer: gradient_descent
+	weight_init: xavier
+wandb: Agent Starting Run: qb69wych with config:
+	activation: tanh
+	alpha: 0.0005
+	batch_size: 32
+	epochs: 5
+	hidden_layer_size: 64
+	learn_rate: 0.001
+	n_layers: 5
+	optimizer: rmsprop
+	weight_init: xavier
+wandb: Agent Starting Run: 67twqy2m with config:
+	activation: sigmoid
+	alpha: 0.5
+	batch_size: 32
+	epochs: 5
+	hidden_layer_size: 128
+	learn_rate: 0.0001
+	n_layers: 3
+	optimizer: momentum_gradient_descent
+	weight_init: xavier
+wandb: Agent Starting Run: k7xau4cn with config:
+	activation: relu
+	alpha: 0
+	batch_size: 16
+	epochs: 5
+	hidden_layer_size: 128
+	learn_rate: 0.001
+	n_layers: 4
+	optimizer: nesterov_accelerated_gradient_descent
+	weight_init: random
+wandb: Agent Starting Run: q2rhk92w with config:
+	activation: tanh
+	alpha: 0
+	batch_size: 64
+	epochs: 10
+	hidden_layer_size: 64
+	learn_rate: 0.001
+	n_layers: 5
+	optimizer: nesterov_accelerated_gradient_descent
+	weight_init: xavier
+2021-03-09 18:37:06,355 - wandb.wandb_agent - ERROR - Detected 5 failed runs in a row, shutting down.
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: pz02twft
+Sweep URL: https://wandb.ai/arneshbose1/deep_learning_assign2/sweeps/pz02twft
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+wandb: Agent Starting Run: 4ud3xrsg with config:
+wandb: 	activation: sigmoid
+wandb: 	alpha: 0.0005
+wandb: 	batch_size: 64
+wandb: 	epochs: 10
+wandb: 	hidden_layer_size: 128
+wandb: 	learn_rate: 0.0001
+wandb: 	n_layers: 5
+wandb: 	optimizer: nadam
+wandb: 	weight_init: xavier
+1/10 epochs completed
+2/10 epochs completed
+3/10 epochs completed
+4/10 epochs completed
+5/10 epochs completed
+6/10 epochs completed
+7/10 epochs completed
+8/10 epochs completed
+9/10 epochs completed
+10/10 epochs completed

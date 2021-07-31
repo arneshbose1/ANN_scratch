@@ -1,0 +1,55 @@
+2021-03-09 19:27:58,596 INFO    MainThread:9140 [wandb_setup.py:_flush():69] setting env: {'entity': 'arneshbose1', 'project': 'deep_learning_assign2', 'sweep_id': '8hwcoqyn', 'root_dir': 'C:\\Users\\Arnesh Kumar Bose\\Desktop\\CS6910 Assignments', 'run_id': 't4jovp9y', 'sweep_param_path': 'C:\\Users\\Arnesh Kumar Bose\\Desktop\\CS6910 Assignments\\wandb\\sweep-8hwcoqyn\\config-t4jovp9y.yaml'}
+2021-03-09 19:27:58,596 INFO    MainThread:9140 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-09 19:27:58,596 INFO    MainThread:9140 [wandb_init.py:_log_setup():334] Logging user logs to C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210309_192758-t4jovp9y\logs\debug.log
+2021-03-09 19:27:58,596 INFO    MainThread:9140 [wandb_init.py:_log_setup():335] Logging internal logs to C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210309_192758-t4jovp9y\logs\debug-internal.log
+2021-03-09 19:27:58,599 INFO    MainThread:9140 [wandb_init.py:init():367] calling init triggers
+2021-03-09 19:27:58,599 INFO    MainThread:9140 [wandb_init.py:init():374] wandb.init called with sweep_config: {'activation': 'relu', 'alpha': 0, 'batch_size': 32, 'epochs': 10, 'hidden_layer_size': 64, 'learn_rate': 0.0001, 'n_layers': 3, 'optimizer': 'nadam', 'weight_init': 'random'}
+config: {'n_layers': 3, 'hidden_layer_size': 64, 'learn_rate': 0.001, 'batch_size': 16, 'epochs': 10, 'alpha': 0.0005, 'optimizer': 'gradient_descent', 'activation': 'sigmoid', 'weight_init': 'random'}
+2021-03-09 19:27:58,599 INFO    MainThread:9140 [wandb_init.py:init():416] starting backend
+2021-03-09 19:27:58,599 INFO    MainThread:9140 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=spawn, using: spawn
+2021-03-09 19:27:58,607 INFO    MainThread:9140 [backend.py:ensure_launched():123] starting backend process...
+2021-03-09 19:27:58,706 INFO    MainThread:9140 [backend.py:ensure_launched():128] started backend process with pid: 2304
+2021-03-09 19:27:58,706 INFO    MainThread:9140 [wandb_init.py:init():421] backend started and connected
+2021-03-09 19:27:58,707 INFO    MainThread:9140 [wandb_run.py:_config_callback():733] config_cb None None {'activation': 'relu', 'alpha': 0, 'batch_size': 32, 'epochs': 10, 'hidden_layer_size': 64, 'learn_rate': 0.0001, 'n_layers': 3, 'optimizer': 'nadam', 'weight_init': 'random'}
+2021-03-09 19:27:58,707 INFO    MainThread:9140 [wandb_init.py:init():461] updated telemetry
+2021-03-09 19:27:58,708 INFO    MainThread:9140 [wandb_init.py:init():480] communicating current version
+2021-03-09 19:28:00,472 INFO    MainThread:9140 [wandb_init.py:init():485] got version response 
+2021-03-09 19:28:00,472 INFO    MainThread:9140 [wandb_init.py:init():493] communicating run to backend with 30 second timeout
+2021-03-09 19:28:00,990 INFO    MainThread:9140 [wandb_init.py:init():518] starting run threads in backend
+2021-03-09 19:28:03,657 INFO    MainThread:9140 [wandb_run.py:_console_start():1476] atexit reg
+2021-03-09 19:28:03,658 INFO    MainThread:9140 [wandb_run.py:_redirect():1339] redirect: SettingsConsole.WRAP
+2021-03-09 19:28:03,658 INFO    MainThread:9140 [wandb_run.py:_redirect():1374] Wrapping output streams.
+2021-03-09 19:28:03,658 INFO    MainThread:9140 [wandb_run.py:_redirect():1390] Redirects installed.
+2021-03-09 19:28:03,658 INFO    MainThread:9140 [wandb_init.py:init():542] run started, returning control to user process
+2021-03-09 19:30:46,300 INFO    MainThread:9140 [wandb_run.py:_atexit_cleanup():1446] got exitcode: 0
+2021-03-09 19:30:46,300 INFO    MainThread:9140 [wandb_run.py:_restore():1418] restore
+2021-03-09 19:30:46,955 INFO    MainThread:9140 [wandb_run.py:_wait_for_finish():1568] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 769
+  total_bytes: 769
+}
+
+2021-03-09 19:30:48,963 INFO    MainThread:9140 [wandb_run.py:_wait_for_finish():1568] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6518
+  total_bytes: 6518
+}
+
+2021-03-09 19:30:50,966 INFO    MainThread:9140 [wandb_run.py:_wait_for_finish():1568] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6518
+  total_bytes: 6518
+}
+
+2021-03-09 19:30:52,207 INFO    MainThread:9140 [wandb_run.py:_show_summary():1723] rendering summary
+2021-03-09 19:30:52,211 INFO    MainThread:9140 [wandb_run.py:_show_history():1761] rendering history
+2021-03-09 19:30:52,214 INFO    MainThread:9140 [wandb_run.py:_show_files():1790] logging synced files

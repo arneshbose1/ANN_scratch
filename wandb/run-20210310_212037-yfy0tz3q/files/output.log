@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "train.py", line 78, in <module>
+    datagen = ImageDataGenerator(rotation_range=45,width_shift_range=0.2,height_shift_range=0.2,
+NameError: name 'ImageDataGenerator' is not defined

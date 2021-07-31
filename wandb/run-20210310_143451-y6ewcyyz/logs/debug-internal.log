@@ -1,0 +1,262 @@
+2021-03-10 14:34:54,469 INFO    MainThread:13340 [internal.py:wandb_internal():91] W&B internal server running at pid: 13340, started at: 2021-03-10 14:34:54.464807
+2021-03-10 14:34:54,471 INFO    WriterThread:13340 [datastore.py:open_for_write():77] open: C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210310_143451-y6ewcyyz\run-y6ewcyyz.wandb
+2021-03-10 14:34:54,471 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: check_version
+2021-03-10 14:34:54,472 DEBUG   SenderThread:13340 [sender.py:send():122] send: header
+2021-03-10 14:34:54,472 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:34:54,474 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: check_version
+2021-03-10 14:34:54,734 DEBUG   SenderThread:13340 [sender.py:send():122] send: run
+2021-03-10 14:34:55,247 INFO    SenderThread:13340 [sender.py:_start_run_threads():599] run started: y6ewcyyz with start time 1615367091
+2021-03-10 14:34:55,247 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: run_start
+2021-03-10 14:34:55,248 DEBUG   SenderThread:13340 [sender.py:send():122] send: summary
+2021-03-10 14:34:55,250 INFO    SenderThread:13340 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-10 14:34:58,165 DEBUG   HandlerThread:13340 [meta.py:__init__():34] meta init
+2021-03-10 14:34:58,165 DEBUG   HandlerThread:13340 [meta.py:__init__():48] meta init done
+2021-03-10 14:34:58,165 DEBUG   HandlerThread:13340 [meta.py:probe():190] probe
+2021-03-10 14:34:58,306 DEBUG   HandlerThread:13340 [meta.py:_save_pip():52] save pip
+2021-03-10 14:34:58,307 DEBUG   HandlerThread:13340 [meta.py:_save_pip():66] save pip done
+2021-03-10 14:34:58,307 DEBUG   HandlerThread:13340 [meta.py:probe():231] probe done
+2021-03-10 14:34:58,313 DEBUG   SenderThread:13340 [sender.py:send():122] send: files
+2021-03-10 14:34:58,313 INFO    SenderThread:13340 [sender.py:_save_file():730] saving file wandb-metadata.json with policy now
+2021-03-10 14:34:58,332 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: status
+2021-03-10 14:34:58,333 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:34:58,333 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: status
+2021-03-10 14:35:02,771 DEBUG   SenderThread:13340 [sender.py:send():122] send: stats
+2021-03-10 14:35:08,310 DEBUG   SenderThread:13340 [sender.py:send():122] send: stats
+2021-03-10 14:35:12,237 DEBUG   SenderThread:13340 [sender.py:send():122] send: history
+2021-03-10 14:35:12,237 DEBUG   SenderThread:13340 [sender.py:send():122] send: summary
+2021-03-10 14:35:12,239 INFO    SenderThread:13340 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-10 14:35:13,806 DEBUG   SenderThread:13340 [sender.py:send():122] send: stats
+2021-03-10 14:35:13,886 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: status
+2021-03-10 14:35:13,887 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:13,887 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: status
+2021-03-10 14:35:19,332 DEBUG   SenderThread:13340 [sender.py:send():122] send: stats
+2021-03-10 14:35:23,110 DEBUG   SenderThread:13340 [sender.py:send():122] send: history
+2021-03-10 14:35:23,110 DEBUG   SenderThread:13340 [sender.py:send():122] send: summary
+2021-03-10 14:35:23,113 INFO    SenderThread:13340 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-10 14:35:24,880 DEBUG   SenderThread:13340 [sender.py:send():122] send: stats
+2021-03-10 14:35:29,387 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: status
+2021-03-10 14:35:29,388 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:29,388 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: status
+2021-03-10 14:35:40,083 DEBUG   SenderThread:13340 [sender.py:send():122] send: stats
+2021-03-10 14:35:40,084 DEBUG   SenderThread:13340 [sender.py:send():122] send: history
+2021-03-10 14:35:40,085 DEBUG   SenderThread:13340 [sender.py:send():122] send: summary
+2021-03-10 14:35:40,087 INFO    SenderThread:13340 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-10 14:35:40,088 DEBUG   SenderThread:13340 [sender.py:send():122] send: stats
+2021-03-10 14:35:41,424 DEBUG   SenderThread:13340 [sender.py:send():122] send: stats
+2021-03-10 14:35:44,359 DEBUG   SenderThread:13340 [sender.py:send():122] send: history
+2021-03-10 14:35:44,360 DEBUG   SenderThread:13340 [sender.py:send():122] send: summary
+2021-03-10 14:35:44,361 INFO    SenderThread:13340 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-10 14:35:46,934 DEBUG   SenderThread:13340 [sender.py:send():122] send: stats
+2021-03-10 14:35:52,440 DEBUG   SenderThread:13340 [sender.py:send():122] send: stats
+2021-03-10 14:35:55,049 DEBUG   SenderThread:13340 [sender.py:send():122] send: history
+2021-03-10 14:35:55,050 DEBUG   SenderThread:13340 [sender.py:send():122] send: summary
+2021-03-10 14:35:55,051 INFO    SenderThread:13340 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-10 14:35:55,062 DEBUG   SenderThread:13340 [sender.py:send():122] send: telemetry
+2021-03-10 14:35:55,073 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:35:55,563 DEBUG   SenderThread:13340 [sender.py:send():122] send: exit
+2021-03-10 14:35:55,563 INFO    SenderThread:13340 [sender.py:send_exit():200] handling exit code: 0
+2021-03-10 14:35:55,563 INFO    SenderThread:13340 [sender.py:send_exit():208] send defer
+2021-03-10 14:35:55,563 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:55,564 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:35:55,564 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: defer
+2021-03-10 14:35:55,564 INFO    HandlerThread:13340 [handler.py:handle_request_defer():115] handle defer: 0
+2021-03-10 14:35:55,564 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:55,564 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: defer
+2021-03-10 14:35:55,564 INFO    SenderThread:13340 [sender.py:send_request_defer():217] handle sender defer: 0
+2021-03-10 14:35:55,565 INFO    SenderThread:13340 [sender.py:send_request_defer():253] send defer: 1
+2021-03-10 14:35:55,565 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: defer
+2021-03-10 14:35:55,565 INFO    HandlerThread:13340 [handler.py:handle_request_defer():115] handle defer: 1
+2021-03-10 14:35:55,627 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:55,627 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: defer
+2021-03-10 14:35:55,627 INFO    SenderThread:13340 [sender.py:send_request_defer():217] handle sender defer: 1
+2021-03-10 14:35:55,627 INFO    SenderThread:13340 [sender.py:send_request_defer():253] send defer: 2
+2021-03-10 14:35:55,628 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: defer
+2021-03-10 14:35:55,628 INFO    HandlerThread:13340 [handler.py:handle_request_defer():115] handle defer: 2
+2021-03-10 14:35:55,628 DEBUG   SenderThread:13340 [sender.py:send():122] send: stats
+2021-03-10 14:35:55,628 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:55,628 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: defer
+2021-03-10 14:35:55,628 INFO    SenderThread:13340 [sender.py:send_request_defer():217] handle sender defer: 2
+2021-03-10 14:35:55,628 INFO    SenderThread:13340 [sender.py:send_request_defer():253] send defer: 3
+2021-03-10 14:35:55,629 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: defer
+2021-03-10 14:35:55,629 INFO    HandlerThread:13340 [handler.py:handle_request_defer():115] handle defer: 3
+2021-03-10 14:35:55,629 DEBUG   SenderThread:13340 [sender.py:send():122] send: summary
+2021-03-10 14:35:55,630 INFO    SenderThread:13340 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-10 14:35:55,630 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:55,630 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: defer
+2021-03-10 14:35:55,630 INFO    SenderThread:13340 [sender.py:send_request_defer():217] handle sender defer: 3
+2021-03-10 14:35:55,630 INFO    SenderThread:13340 [sender.py:send_request_defer():253] send defer: 4
+2021-03-10 14:35:55,631 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: defer
+2021-03-10 14:35:55,631 INFO    HandlerThread:13340 [handler.py:handle_request_defer():115] handle defer: 4
+2021-03-10 14:35:55,631 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:55,631 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: defer
+2021-03-10 14:35:55,631 INFO    SenderThread:13340 [sender.py:send_request_defer():217] handle sender defer: 4
+2021-03-10 14:35:55,867 INFO    SenderThread:13340 [sender.py:send_request_defer():253] send defer: 5
+2021-03-10 14:35:55,868 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: defer
+2021-03-10 14:35:55,868 INFO    HandlerThread:13340 [handler.py:handle_request_defer():115] handle defer: 5
+2021-03-10 14:35:55,869 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:55,869 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: defer
+2021-03-10 14:35:55,869 INFO    SenderThread:13340 [sender.py:send_request_defer():217] handle sender defer: 5
+2021-03-10 14:35:55,869 INFO    SenderThread:13340 [sender.py:send_request_defer():253] send defer: 6
+2021-03-10 14:35:55,869 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: defer
+2021-03-10 14:35:55,869 INFO    HandlerThread:13340 [handler.py:handle_request_defer():115] handle defer: 6
+2021-03-10 14:35:55,872 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:55,873 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: defer
+2021-03-10 14:35:55,873 INFO    SenderThread:13340 [sender.py:send_request_defer():217] handle sender defer: 6
+2021-03-10 14:35:56,553 INFO    SenderThread:13340 [sender.py:send_request_defer():253] send defer: 7
+2021-03-10 14:35:56,553 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: defer
+2021-03-10 14:35:56,553 INFO    HandlerThread:13340 [handler.py:handle_request_defer():115] handle defer: 7
+2021-03-10 14:35:56,553 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:56,554 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: defer
+2021-03-10 14:35:56,554 INFO    SenderThread:13340 [sender.py:send_request_defer():217] handle sender defer: 7
+2021-03-10 14:35:56,554 INFO    SenderThread:13340 [sender.py:send_request_defer():253] send defer: 8
+2021-03-10 14:35:56,554 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: defer
+2021-03-10 14:35:56,554 INFO    HandlerThread:13340 [handler.py:handle_request_defer():115] handle defer: 8
+2021-03-10 14:35:56,555 DEBUG   SenderThread:13340 [sender.py:send():122] send: final
+2021-03-10 14:35:56,555 DEBUG   SenderThread:13340 [sender.py:send():122] send: footer
+2021-03-10 14:35:56,555 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:56,555 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: defer
+2021-03-10 14:35:56,555 INFO    SenderThread:13340 [sender.py:send_request_defer():217] handle sender defer: 8
+2021-03-10 14:35:57,565 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:35:57,565 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:57,566 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:35:59,575 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:35:59,575 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:35:59,576 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:01,588 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:01,588 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:01,589 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:03,591 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:03,591 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:03,591 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:05,607 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:05,607 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:05,608 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:07,451 ERROR   Thread-13 :13340 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/output.log?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iWqyDr34%2Br5M8H5bG5JXkZoSd%2BHrtivheM5yCiMMCPHX%2B%2Fvvu%2BYSjzSKp6mjZ51zjl%2FV%2BNktlFbfu7KMy0nmtj7GuPGGI%2FPR75uSeKMaGXBRATDSohV%2FDJM46yiAnO8r1LzApZnc%2Byc3S3675YKgilctdXTUpVqBZ0vUw%2F3h6alqY43yruZrqotVjSUy752454vXhmsGzLq499QHK4HN6ifmMSRYq90tTEY0bcg9azxtjge7GKlQUWSXoA30r4KYfbXVSddV4vlcIQTIHoGk8QDn06BcsGWB64vRAq3eb7JEr1v7mtdS49In29%2FVSeYXiHB6h9u4bVKI4p%2BMLSs0cg%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/output.log?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iWqyDr34%2Br5M8H5bG5JXkZoSd%2BHrtivheM5yCiMMCPHX%2B%2Fvvu%2BYSjzSKp6mjZ51zjl%2FV%2BNktlFbfu7KMy0nmtj7GuPGGI%2FPR75uSeKMaGXBRATDSohV%2FDJM46yiAnO8r1LzApZnc%2Byc3S3675YKgilctdXTUpVqBZ0vUw%2F3h6alqY43yruZrqotVjSUy752454vXhmsGzLq499QHK4HN6ifmMSRYq90tTEY0bcg9azxtjge7GKlQUWSXoA30r4KYfbXVSddV4vlcIQTIHoGk8QDn06BcsGWB64vRAq3eb7JEr1v7mtdS49In29%2FVSeYXiHB6h9u4bVKI4p%2BMLSs0cg%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B3768550>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2021-03-10 14:36:07,451 ERROR   Thread-15 :13340 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/wandb-summary.json?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AwQOfGqkjCS6wa0mDSNFuol0YCvHENFX%2B3VYztpqPFbsrmtJASyTGA6XMRnsWbZLAj15Dg3KfkpPXolZ30mq0bwY6QuqGgk1%2FDS9k5cpsreUZ67g8E8lYQcVyrqYrWrKsglt2c9%2BIKU0d8dXSortWQfmvd8QSJfukmxOfNXuU7NQjDpDhcPangFZEugq8bxeC%2FsecKEd02k9n2k220hf2q7LivOrZPdgUwjqBJGHgdC7bZtAdqAjYPg6SOQAiUYuTQeKhvU7DHZWqCZEJk1XUowOhCfk0YqQOsn2Iemk0SpiuS8EQ1xTbvCw5G8q3UUp0OZcOs92WTkiIPvwMXqpmw%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/wandb-summary.json?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AwQOfGqkjCS6wa0mDSNFuol0YCvHENFX%2B3VYztpqPFbsrmtJASyTGA6XMRnsWbZLAj15Dg3KfkpPXolZ30mq0bwY6QuqGgk1%2FDS9k5cpsreUZ67g8E8lYQcVyrqYrWrKsglt2c9%2BIKU0d8dXSortWQfmvd8QSJfukmxOfNXuU7NQjDpDhcPangFZEugq8bxeC%2FsecKEd02k9n2k220hf2q7LivOrZPdgUwjqBJGHgdC7bZtAdqAjYPg6SOQAiUYuTQeKhvU7DHZWqCZEJk1XUowOhCfk0YqQOsn2Iemk0SpiuS8EQ1xTbvCw5G8q3UUp0OZcOs92WTkiIPvwMXqpmw%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B37684A8>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2021-03-10 14:36:07,453 ERROR   Thread-14 :13340 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/requirements.txt?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=o6UpBey1l2IPJoYXcBHugeMrdbRpP%2Brj6%2Fd8fvr4j%2BaVW%2Fx81D%2BLhXdcgJqd6z7qsAm48BA9%2BBgt%2Fl3%2FubVoQBvU3%2FbIw0gAlnlPkz8Zzopc9JFCqUqfLZlSJUd9DLKDqJKXSbJpU46TC9BBAk3zjgopJz%2FjbWHhrqWdXBr7nmB5IfQ%2FLWfSwDGz0bVZL9Mh9mC5NhTQyiOSBMvydR7WYEr%2FyV5FMs2emkIPOO2jvdolOCX%2FjdrvliN6mDFOSWwPYXcKGtFEUuLsV9cugHsXMzpjUU4BXhHDjcoF3rEIidqtFWtcjRIHTEtheEMdMLW0TPWzZlmQZ8yryXDMuseVDw%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/requirements.txt?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=o6UpBey1l2IPJoYXcBHugeMrdbRpP%2Brj6%2Fd8fvr4j%2BaVW%2Fx81D%2BLhXdcgJqd6z7qsAm48BA9%2BBgt%2Fl3%2FubVoQBvU3%2FbIw0gAlnlPkz8Zzopc9JFCqUqfLZlSJUd9DLKDqJKXSbJpU46TC9BBAk3zjgopJz%2FjbWHhrqWdXBr7nmB5IfQ%2FLWfSwDGz0bVZL9Mh9mC5NhTQyiOSBMvydR7WYEr%2FyV5FMs2emkIPOO2jvdolOCX%2FjdrvliN6mDFOSWwPYXcKGtFEUuLsV9cugHsXMzpjUU4BXhHDjcoF3rEIidqtFWtcjRIHTEtheEMdMLW0TPWzZlmQZ8yryXDMuseVDw%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B372DA90>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2021-03-10 14:36:07,453 ERROR   Thread-12 :13340 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/config.yaml?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AK91s4IQuvokqGjMexaTEbQRzo%2BF4vkwnFSZ3A1DvgUpWOcEgcvL%2FoFL%2BQsglli%2FHwyz86xT%2FE%2FkUntA7cfDK1lQm%2BNeR3Yh3kZPvZFQqCQZdttz7wohUx3umgH2p1595IM6IXUQA5eSRVuOoF5wJ6G%2FzhITwi2hc7XX%2BaSE%2BeUs0YlaO4D%2FiVVewilLvruIPdvRtLBwkiK1U3tdtmbmk5CBspuD9cA9AphvEph7hHc8R04O4HrgIS0eKebLaObZfsdcJREv5dgFABXvVMJlhtQoKiFM4Nk9sS%2F%2Bnb%2BQ7eznU2Qrr6qnGwselfpIzxTTOvjassEPPiT5Hn5DKbXiaQ%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/config.yaml?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AK91s4IQuvokqGjMexaTEbQRzo%2BF4vkwnFSZ3A1DvgUpWOcEgcvL%2FoFL%2BQsglli%2FHwyz86xT%2FE%2FkUntA7cfDK1lQm%2BNeR3Yh3kZPvZFQqCQZdttz7wohUx3umgH2p1595IM6IXUQA5eSRVuOoF5wJ6G%2FzhITwi2hc7XX%2BaSE%2BeUs0YlaO4D%2FiVVewilLvruIPdvRtLBwkiK1U3tdtmbmk5CBspuD9cA9AphvEph7hHc8R04O4HrgIS0eKebLaObZfsdcJREv5dgFABXvVMJlhtQoKiFM4Nk9sS%2F%2Bnb%2BQ7eznU2Qrr6qnGwselfpIzxTTOvjassEPPiT5Hn5DKbXiaQ%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B372D7B8>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2021-03-10 14:36:07,610 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:07,610 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:07,610 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:08,486 ERROR   Thread-14 :13340 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/requirements.txt?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=o6UpBey1l2IPJoYXcBHugeMrdbRpP%2Brj6%2Fd8fvr4j%2BaVW%2Fx81D%2BLhXdcgJqd6z7qsAm48BA9%2BBgt%2Fl3%2FubVoQBvU3%2FbIw0gAlnlPkz8Zzopc9JFCqUqfLZlSJUd9DLKDqJKXSbJpU46TC9BBAk3zjgopJz%2FjbWHhrqWdXBr7nmB5IfQ%2FLWfSwDGz0bVZL9Mh9mC5NhTQyiOSBMvydR7WYEr%2FyV5FMs2emkIPOO2jvdolOCX%2FjdrvliN6mDFOSWwPYXcKGtFEUuLsV9cugHsXMzpjUU4BXhHDjcoF3rEIidqtFWtcjRIHTEtheEMdMLW0TPWzZlmQZ8yryXDMuseVDw%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/requirements.txt?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=o6UpBey1l2IPJoYXcBHugeMrdbRpP%2Brj6%2Fd8fvr4j%2BaVW%2Fx81D%2BLhXdcgJqd6z7qsAm48BA9%2BBgt%2Fl3%2FubVoQBvU3%2FbIw0gAlnlPkz8Zzopc9JFCqUqfLZlSJUd9DLKDqJKXSbJpU46TC9BBAk3zjgopJz%2FjbWHhrqWdXBr7nmB5IfQ%2FLWfSwDGz0bVZL9Mh9mC5NhTQyiOSBMvydR7WYEr%2FyV5FMs2emkIPOO2jvdolOCX%2FjdrvliN6mDFOSWwPYXcKGtFEUuLsV9cugHsXMzpjUU4BXhHDjcoF3rEIidqtFWtcjRIHTEtheEMdMLW0TPWzZlmQZ8yryXDMuseVDw%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B16C9400>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2021-03-10 14:36:08,629 ERROR   Thread-12 :13340 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/config.yaml?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AK91s4IQuvokqGjMexaTEbQRzo%2BF4vkwnFSZ3A1DvgUpWOcEgcvL%2FoFL%2BQsglli%2FHwyz86xT%2FE%2FkUntA7cfDK1lQm%2BNeR3Yh3kZPvZFQqCQZdttz7wohUx3umgH2p1595IM6IXUQA5eSRVuOoF5wJ6G%2FzhITwi2hc7XX%2BaSE%2BeUs0YlaO4D%2FiVVewilLvruIPdvRtLBwkiK1U3tdtmbmk5CBspuD9cA9AphvEph7hHc8R04O4HrgIS0eKebLaObZfsdcJREv5dgFABXvVMJlhtQoKiFM4Nk9sS%2F%2Bnb%2BQ7eznU2Qrr6qnGwselfpIzxTTOvjassEPPiT5Hn5DKbXiaQ%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/config.yaml?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AK91s4IQuvokqGjMexaTEbQRzo%2BF4vkwnFSZ3A1DvgUpWOcEgcvL%2FoFL%2BQsglli%2FHwyz86xT%2FE%2FkUntA7cfDK1lQm%2BNeR3Yh3kZPvZFQqCQZdttz7wohUx3umgH2p1595IM6IXUQA5eSRVuOoF5wJ6G%2FzhITwi2hc7XX%2BaSE%2BeUs0YlaO4D%2FiVVewilLvruIPdvRtLBwkiK1U3tdtmbmk5CBspuD9cA9AphvEph7hHc8R04O4HrgIS0eKebLaObZfsdcJREv5dgFABXvVMJlhtQoKiFM4Nk9sS%2F%2Bnb%2BQ7eznU2Qrr6qnGwselfpIzxTTOvjassEPPiT5Hn5DKbXiaQ%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B372D6D8>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2021-03-10 14:36:08,629 ERROR   Thread-12 :13340 [retry.py:__call__():111] Retry attempt failed:
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\programdata\anaconda3\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "c:\programdata\anaconda3\lib\socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11002] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "c:\programdata\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "c:\programdata\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "c:\programdata\anaconda3\lib\site-packages\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\programdata\anaconda3\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B372D6D8>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\programdata\anaconda3\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/config.yaml?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AK91s4IQuvokqGjMexaTEbQRzo%2BF4vkwnFSZ3A1DvgUpWOcEgcvL%2FoFL%2BQsglli%2FHwyz86xT%2FE%2FkUntA7cfDK1lQm%2BNeR3Yh3kZPvZFQqCQZdttz7wohUx3umgH2p1595IM6IXUQA5eSRVuOoF5wJ6G%2FzhITwi2hc7XX%2BaSE%2BeUs0YlaO4D%2FiVVewilLvruIPdvRtLBwkiK1U3tdtmbmk5CBspuD9cA9AphvEph7hHc8R04O4HrgIS0eKebLaObZfsdcJREv5dgFABXvVMJlhtQoKiFM4Nk9sS%2F%2Bnb%2BQ7eznU2Qrr6qnGwselfpIzxTTOvjassEPPiT5Hn5DKbXiaQ%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B372D6D8>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 1198, in upload_file
+    response = requests.put(url, data=progress, headers=extra_headers)
+  File "c:\programdata\anaconda3\lib\site-packages\requests\api.py", line 126, in put
+    return request('put', url, data=data, **kwargs)
+  File "c:\programdata\anaconda3\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "c:\programdata\anaconda3\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/config.yaml?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AK91s4IQuvokqGjMexaTEbQRzo%2BF4vkwnFSZ3A1DvgUpWOcEgcvL%2FoFL%2BQsglli%2FHwyz86xT%2FE%2FkUntA7cfDK1lQm%2BNeR3Yh3kZPvZFQqCQZdttz7wohUx3umgH2p1595IM6IXUQA5eSRVuOoF5wJ6G%2FzhITwi2hc7XX%2BaSE%2BeUs0YlaO4D%2FiVVewilLvruIPdvRtLBwkiK1U3tdtmbmk5CBspuD9cA9AphvEph7hHc8R04O4HrgIS0eKebLaObZfsdcJREv5dgFABXvVMJlhtQoKiFM4Nk9sS%2F%2Bnb%2BQ7eznU2Qrr6qnGwselfpIzxTTOvjassEPPiT5Hn5DKbXiaQ%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B372D6D8>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\wandb\old\retry.py", line 96, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "c:\programdata\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 1209, in upload_file
+    util.sentry_reraise(retry.TransientException(exc=e))
+  File "c:\programdata\anaconda3\lib\site-packages\wandb\util.py", line 120, in sentry_reraise
+    six.reraise(type(exc), exc, sys.exc_info()[2])
+  File "c:\programdata\anaconda3\lib\site-packages\six.py", line 702, in reraise
+    raise value.with_traceback(tb)
+  File "c:\programdata\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 1198, in upload_file
+    response = requests.put(url, data=progress, headers=extra_headers)
+  File "c:\programdata\anaconda3\lib\site-packages\requests\api.py", line 126, in put
+    return request('put', url, data=data, **kwargs)
+  File "c:\programdata\anaconda3\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "c:\programdata\anaconda3\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+wandb.old.retry.TransientException: None
+2021-03-10 14:36:08,661 ERROR   Thread-15 :13340 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/wandb-summary.json?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AwQOfGqkjCS6wa0mDSNFuol0YCvHENFX%2B3VYztpqPFbsrmtJASyTGA6XMRnsWbZLAj15Dg3KfkpPXolZ30mq0bwY6QuqGgk1%2FDS9k5cpsreUZ67g8E8lYQcVyrqYrWrKsglt2c9%2BIKU0d8dXSortWQfmvd8QSJfukmxOfNXuU7NQjDpDhcPangFZEugq8bxeC%2FsecKEd02k9n2k220hf2q7LivOrZPdgUwjqBJGHgdC7bZtAdqAjYPg6SOQAiUYuTQeKhvU7DHZWqCZEJk1XUowOhCfk0YqQOsn2Iemk0SpiuS8EQ1xTbvCw5G8q3UUp0OZcOs92WTkiIPvwMXqpmw%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/wandb-summary.json?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AwQOfGqkjCS6wa0mDSNFuol0YCvHENFX%2B3VYztpqPFbsrmtJASyTGA6XMRnsWbZLAj15Dg3KfkpPXolZ30mq0bwY6QuqGgk1%2FDS9k5cpsreUZ67g8E8lYQcVyrqYrWrKsglt2c9%2BIKU0d8dXSortWQfmvd8QSJfukmxOfNXuU7NQjDpDhcPangFZEugq8bxeC%2FsecKEd02k9n2k220hf2q7LivOrZPdgUwjqBJGHgdC7bZtAdqAjYPg6SOQAiUYuTQeKhvU7DHZWqCZEJk1XUowOhCfk0YqQOsn2Iemk0SpiuS8EQ1xTbvCw5G8q3UUp0OZcOs92WTkiIPvwMXqpmw%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B37684E0>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2021-03-10 14:36:08,692 ERROR   Thread-13 :13340 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/output.log?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iWqyDr34%2Br5M8H5bG5JXkZoSd%2BHrtivheM5yCiMMCPHX%2B%2Fvvu%2BYSjzSKp6mjZ51zjl%2FV%2BNktlFbfu7KMy0nmtj7GuPGGI%2FPR75uSeKMaGXBRATDSohV%2FDJM46yiAnO8r1LzApZnc%2Byc3S3675YKgilctdXTUpVqBZ0vUw%2F3h6alqY43yruZrqotVjSUy752454vXhmsGzLq499QHK4HN6ifmMSRYq90tTEY0bcg9azxtjge7GKlQUWSXoA30r4KYfbXVSddV4vlcIQTIHoGk8QDn06BcsGWB64vRAq3eb7JEr1v7mtdS49In29%2FVSeYXiHB6h9u4bVKI4p%2BMLSs0cg%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/output.log?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iWqyDr34%2Br5M8H5bG5JXkZoSd%2BHrtivheM5yCiMMCPHX%2B%2Fvvu%2BYSjzSKp6mjZ51zjl%2FV%2BNktlFbfu7KMy0nmtj7GuPGGI%2FPR75uSeKMaGXBRATDSohV%2FDJM46yiAnO8r1LzApZnc%2Byc3S3675YKgilctdXTUpVqBZ0vUw%2F3h6alqY43yruZrqotVjSUy752454vXhmsGzLq499QHK4HN6ifmMSRYq90tTEY0bcg9azxtjge7GKlQUWSXoA30r4KYfbXVSddV4vlcIQTIHoGk8QDn06BcsGWB64vRAq3eb7JEr1v7mtdS49In29%2FVSeYXiHB6h9u4bVKI4p%2BMLSs0cg%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B37689B0>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2021-03-10 14:36:09,625 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:09,626 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:09,626 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:10,719 ERROR   Thread-14 :13340 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/requirements.txt?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=o6UpBey1l2IPJoYXcBHugeMrdbRpP%2Brj6%2Fd8fvr4j%2BaVW%2Fx81D%2BLhXdcgJqd6z7qsAm48BA9%2BBgt%2Fl3%2FubVoQBvU3%2FbIw0gAlnlPkz8Zzopc9JFCqUqfLZlSJUd9DLKDqJKXSbJpU46TC9BBAk3zjgopJz%2FjbWHhrqWdXBr7nmB5IfQ%2FLWfSwDGz0bVZL9Mh9mC5NhTQyiOSBMvydR7WYEr%2FyV5FMs2emkIPOO2jvdolOCX%2FjdrvliN6mDFOSWwPYXcKGtFEUuLsV9cugHsXMzpjUU4BXhHDjcoF3rEIidqtFWtcjRIHTEtheEMdMLW0TPWzZlmQZ8yryXDMuseVDw%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/requirements.txt?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=o6UpBey1l2IPJoYXcBHugeMrdbRpP%2Brj6%2Fd8fvr4j%2BaVW%2Fx81D%2BLhXdcgJqd6z7qsAm48BA9%2BBgt%2Fl3%2FubVoQBvU3%2FbIw0gAlnlPkz8Zzopc9JFCqUqfLZlSJUd9DLKDqJKXSbJpU46TC9BBAk3zjgopJz%2FjbWHhrqWdXBr7nmB5IfQ%2FLWfSwDGz0bVZL9Mh9mC5NhTQyiOSBMvydR7WYEr%2FyV5FMs2emkIPOO2jvdolOCX%2FjdrvliN6mDFOSWwPYXcKGtFEUuLsV9cugHsXMzpjUU4BXhHDjcoF3rEIidqtFWtcjRIHTEtheEMdMLW0TPWzZlmQZ8yryXDMuseVDw%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B3777908>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2021-03-10 14:36:10,865 ERROR   Thread-15 :13340 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/wandb-summary.json?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AwQOfGqkjCS6wa0mDSNFuol0YCvHENFX%2B3VYztpqPFbsrmtJASyTGA6XMRnsWbZLAj15Dg3KfkpPXolZ30mq0bwY6QuqGgk1%2FDS9k5cpsreUZ67g8E8lYQcVyrqYrWrKsglt2c9%2BIKU0d8dXSortWQfmvd8QSJfukmxOfNXuU7NQjDpDhcPangFZEugq8bxeC%2FsecKEd02k9n2k220hf2q7LivOrZPdgUwjqBJGHgdC7bZtAdqAjYPg6SOQAiUYuTQeKhvU7DHZWqCZEJk1XUowOhCfk0YqQOsn2Iemk0SpiuS8EQ1xTbvCw5G8q3UUp0OZcOs92WTkiIPvwMXqpmw%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/wandb-summary.json?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AwQOfGqkjCS6wa0mDSNFuol0YCvHENFX%2B3VYztpqPFbsrmtJASyTGA6XMRnsWbZLAj15Dg3KfkpPXolZ30mq0bwY6QuqGgk1%2FDS9k5cpsreUZ67g8E8lYQcVyrqYrWrKsglt2c9%2BIKU0d8dXSortWQfmvd8QSJfukmxOfNXuU7NQjDpDhcPangFZEugq8bxeC%2FsecKEd02k9n2k220hf2q7LivOrZPdgUwjqBJGHgdC7bZtAdqAjYPg6SOQAiUYuTQeKhvU7DHZWqCZEJk1XUowOhCfk0YqQOsn2Iemk0SpiuS8EQ1xTbvCw5G8q3UUp0OZcOs92WTkiIPvwMXqpmw%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B372DB70>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2021-03-10 14:36:11,086 ERROR   Thread-12 :13340 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/config.yaml?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AK91s4IQuvokqGjMexaTEbQRzo%2BF4vkwnFSZ3A1DvgUpWOcEgcvL%2FoFL%2BQsglli%2FHwyz86xT%2FE%2FkUntA7cfDK1lQm%2BNeR3Yh3kZPvZFQqCQZdttz7wohUx3umgH2p1595IM6IXUQA5eSRVuOoF5wJ6G%2FzhITwi2hc7XX%2BaSE%2BeUs0YlaO4D%2FiVVewilLvruIPdvRtLBwkiK1U3tdtmbmk5CBspuD9cA9AphvEph7hHc8R04O4HrgIS0eKebLaObZfsdcJREv5dgFABXvVMJlhtQoKiFM4Nk9sS%2F%2Bnb%2BQ7eznU2Qrr6qnGwselfpIzxTTOvjassEPPiT5Hn5DKbXiaQ%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/config.yaml?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=AK91s4IQuvokqGjMexaTEbQRzo%2BF4vkwnFSZ3A1DvgUpWOcEgcvL%2FoFL%2BQsglli%2FHwyz86xT%2FE%2FkUntA7cfDK1lQm%2BNeR3Yh3kZPvZFQqCQZdttz7wohUx3umgH2p1595IM6IXUQA5eSRVuOoF5wJ6G%2FzhITwi2hc7XX%2BaSE%2BeUs0YlaO4D%2FiVVewilLvruIPdvRtLBwkiK1U3tdtmbmk5CBspuD9cA9AphvEph7hHc8R04O4HrgIS0eKebLaObZfsdcJREv5dgFABXvVMJlhtQoKiFM4Nk9sS%2F%2Bnb%2BQ7eznU2Qrr6qnGwselfpIzxTTOvjassEPPiT5Hn5DKbXiaQ%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249AC676F28>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2021-03-10 14:36:11,118 ERROR   Thread-13 :13340 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/output.log?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iWqyDr34%2Br5M8H5bG5JXkZoSd%2BHrtivheM5yCiMMCPHX%2B%2Fvvu%2BYSjzSKp6mjZ51zjl%2FV%2BNktlFbfu7KMy0nmtj7GuPGGI%2FPR75uSeKMaGXBRATDSohV%2FDJM46yiAnO8r1LzApZnc%2Byc3S3675YKgilctdXTUpVqBZ0vUw%2F3h6alqY43yruZrqotVjSUy752454vXhmsGzLq499QHK4HN6ifmMSRYq90tTEY0bcg9azxtjge7GKlQUWSXoA30r4KYfbXVSddV4vlcIQTIHoGk8QDn06BcsGWB64vRAq3eb7JEr1v7mtdS49In29%2FVSeYXiHB6h9u4bVKI4p%2BMLSs0cg%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/neilghosh/cs6910_assignment_1/y6ewcyyz/output.log?Expires=1615453555&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iWqyDr34%2Br5M8H5bG5JXkZoSd%2BHrtivheM5yCiMMCPHX%2B%2Fvvu%2BYSjzSKp6mjZ51zjl%2FV%2BNktlFbfu7KMy0nmtj7GuPGGI%2FPR75uSeKMaGXBRATDSohV%2FDJM46yiAnO8r1LzApZnc%2Byc3S3675YKgilctdXTUpVqBZ0vUw%2F3h6alqY43yruZrqotVjSUy752454vXhmsGzLq499QHK4HN6ifmMSRYq90tTEY0bcg9azxtjge7GKlQUWSXoA30r4KYfbXVSddV4vlcIQTIHoGk8QDn06BcsGWB64vRAq3eb7JEr1v7mtdS49In29%2FVSeYXiHB6h9u4bVKI4p%2BMLSs0cg%3D%3D (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000249B3768630>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2021-03-10 14:36:11,642 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:11,642 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:11,642 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:13,657 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:13,657 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:13,657 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:15,674 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:15,674 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:15,674 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:17,691 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:17,692 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:17,692 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:19,695 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:19,695 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:19,696 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:21,709 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:21,710 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:21,710 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:23,720 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:23,720 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:23,721 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:25,732 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:25,732 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:25,733 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:27,737 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-10 14:36:27,737 DEBUG   SenderThread:13340 [sender.py:send():122] send: request
+2021-03-10 14:36:27,738 DEBUG   SenderThread:13340 [sender.py:send_request():131] send_request: poll_exit
+2021-03-10 14:36:27,740 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: get_summary
+2021-03-10 14:36:27,741 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: sampled_history
+2021-03-10 14:36:27,742 DEBUG   HandlerThread:13340 [handler.py:handle_request():101] handle_request: shutdown
+2021-03-10 14:36:27,742 INFO    HandlerThread:13340 [handler.py:finish():535] shutting down handler
+2021-03-10 14:36:27,800 INFO    WriterThread:13340 [datastore.py:close():258] close: C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210310_143451-y6ewcyyz\run-y6ewcyyz.wandb
+2021-03-10 14:36:28,753 INFO    SenderThread:13340 [sender.py:finish():833] shutting down sender
+2021-03-10 14:36:28,754 INFO    MainThread:13340 [internal.py:handle_exit():78] Internal process exited

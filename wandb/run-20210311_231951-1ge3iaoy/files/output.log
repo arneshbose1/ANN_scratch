@@ -1,0 +1,18 @@
+C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:8: RuntimeWarning: invalid value encountered in true_divide
+  
+C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:10: RuntimeWarning: invalid value encountered in greater
+  # Remove the CWD from sys.path while we load stuff.
+1/10 completed
+2/10 completed
+3/10 completed
+4/10 completed
+5/10 completed
+6/10 completed
+7/10 completed
+8/10 completed
+9/10 completed
+10/10 completed
+C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: RuntimeWarning: divide by zero encountered in log
+  
+C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:6: RuntimeWarning: invalid value encountered in multiply
+  

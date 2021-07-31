@@ -1,0 +1,28 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.3",
+    "heartbeatAt": "2021-03-10T23:47:48.679542",
+    "startedAt": "2021-03-10T23:47:43.521845",
+    "docker": null,
+    "gpu": "GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--activation=relu",
+        "--alpha=0.5",
+        "--batch_size=16",
+        "--epochs=5",
+        "--hidden_layer_size=128",
+        "--learn_rate=0.001",
+        "--n_layers=4",
+        "--optimizer=adam",
+        "--weight_init=xavier"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "Arnesh",
+    "username": "Arnesh Kumar Bose",
+    "executable": "c:\\programdata\\anaconda3\\python.exe"
+}

@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.3",
+    "heartbeatAt": "2021-03-12T13:33:02.116982",
+    "startedAt": "2021-03-12T13:32:46.410641",
+    "docker": null,
+    "gpu": "GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\Arnesh Kumar Bose\\AppData\\Roaming\\jupyter\\runtime\\kernel-d62ce577-1acc-49b3-85b9-918a4ece627c.json"
+    ],
+    "state": "running",
+    "program": "Desktop/CS6910 Assignments/Assignment_1_best_hyperparameters.ipynb",
+    "root": "C:\\Users\\Arnesh Kumar Bose",
+    "host": "Arnesh",
+    "username": "Arnesh Kumar Bose",
+    "executable": "C:\\ProgramData\\Anaconda3\\python.exe"
+}

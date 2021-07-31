@@ -1,0 +1,86 @@
+2021-03-11 23:18:48,247 INFO    MainThread:9676 [internal.py:wandb_internal():91] W&B internal server running at pid: 9676, started at: 2021-03-11 23:18:48.241673
+2021-03-11 23:18:48,249 DEBUG   HandlerThread:9676 [handler.py:handle_request():101] handle_request: check_version
+2021-03-11 23:18:48,249 INFO    WriterThread:9676 [datastore.py:open_for_write():77] open: C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210311_231846-2eh8jf42\run-2eh8jf42.wandb
+2021-03-11 23:18:48,251 DEBUG   SenderThread:9676 [sender.py:send():122] send: header
+2021-03-11 23:18:48,251 DEBUG   SenderThread:9676 [sender.py:send():122] send: request
+2021-03-11 23:18:48,253 DEBUG   SenderThread:9676 [sender.py:send_request():131] send_request: check_version
+2021-03-11 23:18:49,028 DEBUG   SenderThread:9676 [sender.py:send():122] send: run
+2021-03-11 23:18:49,718 INFO    SenderThread:9676 [sender.py:_start_run_threads():599] run started: 2eh8jf42 with start time 1615484926
+2021-03-11 23:18:49,718 DEBUG   SenderThread:9676 [sender.py:send():122] send: summary
+2021-03-11 23:18:49,718 DEBUG   HandlerThread:9676 [handler.py:handle_request():101] handle_request: run_start
+2021-03-11 23:18:49,720 INFO    SenderThread:9676 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-11 23:18:52,007 DEBUG   HandlerThread:9676 [meta.py:__init__():34] meta init
+2021-03-11 23:18:52,008 DEBUG   HandlerThread:9676 [meta.py:__init__():48] meta init done
+2021-03-11 23:18:52,008 DEBUG   HandlerThread:9676 [meta.py:probe():190] probe
+2021-03-11 23:18:52,150 DEBUG   HandlerThread:9676 [meta.py:_save_pip():52] save pip
+2021-03-11 23:18:52,151 DEBUG   HandlerThread:9676 [meta.py:_save_pip():66] save pip done
+2021-03-11 23:18:52,151 DEBUG   HandlerThread:9676 [meta.py:probe():231] probe done
+2021-03-11 23:18:52,156 DEBUG   SenderThread:9676 [sender.py:send():122] send: files
+2021-03-11 23:18:52,156 INFO    SenderThread:9676 [sender.py:_save_file():730] saving file wandb-metadata.json with policy now
+2021-03-11 23:18:52,165 DEBUG   HandlerThread:9676 [handler.py:handle_request():101] handle_request: status
+2021-03-11 23:18:52,184 DEBUG   SenderThread:9676 [sender.py:send():122] send: request
+2021-03-11 23:18:52,184 DEBUG   SenderThread:9676 [sender.py:send_request():131] send_request: status
+2021-03-11 23:18:52,186 DEBUG   HandlerThread:9676 [handler.py:handle_request():101] handle_request: pause
+2021-03-11 23:18:52,187 INFO    HandlerThread:9676 [handler.py:handle_request_pause():425] stopping system metrics thread
+2021-03-11 23:18:52,851 DEBUG   SenderThread:9676 [sender.py:send():122] send: stats
+2021-03-11 23:19:07,866 DEBUG   HandlerThread:9676 [handler.py:handle_request():101] handle_request: status
+2021-03-11 23:19:07,866 DEBUG   SenderThread:9676 [sender.py:send():122] send: request
+2021-03-11 23:19:07,866 DEBUG   SenderThread:9676 [sender.py:send_request():131] send_request: status
+2021-03-11 23:19:23,372 DEBUG   HandlerThread:9676 [handler.py:handle_request():101] handle_request: status
+2021-03-11 23:19:23,372 DEBUG   SenderThread:9676 [sender.py:send():122] send: request
+2021-03-11 23:19:23,373 DEBUG   SenderThread:9676 [sender.py:send_request():131] send_request: status
+2021-03-11 23:19:36,327 DEBUG   SenderThread:9676 [sender.py:send():122] send: telemetry
+2021-03-11 23:19:36,328 DEBUG   HandlerThread:9676 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-11 23:19:36,749 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:19:36,749 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:19:38,415 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:19:38,415 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:19:40,921 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:19:40,921 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:19:40,923 ERROR   SenderThread:9676 [retry.py:__call__():111] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\old\retry.py", line 96, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 129, in execute
+    six.reraise(*sys.exc_info())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\six.py", line 703, in reraise
+    raise value
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 123, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\models.py", line 935, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2021-03-11 23:19:45,670 WARNING MainThread:9676 [internal.py:is_dead():344] Internal process exiting, parent pid 6268 disappeared
+2021-03-11 23:19:45,670 ERROR   MainThread:9676 [internal.py:wandb_internal():142] Internal process shutdown.
+2021-03-11 23:19:45,805 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:19:45,805 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:19:46,414 INFO    HandlerThread:9676 [handler.py:finish():535] shutting down handler
+2021-03-11 23:19:46,414 INFO    WriterThread:9676 [datastore.py:close():258] close: C:\Users\Arnesh Kumar Bose\Desktop\CS6910 Assignments\wandb\run-20210311_231846-2eh8jf42\run-2eh8jf42.wandb
+2021-03-11 23:19:54,864 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:19:54,864 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:20:15,550 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:20:15,551 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:20:53,169 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:20:53,170 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:22:08,267 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:22:08,267 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:24:26,984 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:24:26,984 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:29:43,850 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:29:43,850 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:34:47,018 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:34:47,018 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:40:13,949 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:40:13,950 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:46:05,222 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:46:05,222 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:51:07,410 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:51:07,411 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-03-11 23:56:31,459 ERROR   SenderThread:9676 [internal_api.py:execute():126] 409 response executing GraphQL.
+2021-03-11 23:56:31,459 ERROR   SenderThread:9676 [internal_api.py:execute():127] {"errors":[{"message":"Error 1062: Duplicate entry '238975-2eh8jf42' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
